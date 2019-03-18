@@ -8,4 +8,6 @@ def my_collect(original_array)
   collected_array
 end 
 
-my_collect do
+my_collect do |name|
+name.split(" ").first
+end 
