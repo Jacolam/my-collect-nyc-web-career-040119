@@ -9,5 +9,5 @@ def my_collect(original_array)
 end 
 
 my_collect do |name|
-name.split(" ").first
+collected_array << name.split(" ").first
 end 
