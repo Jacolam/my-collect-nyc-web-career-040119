@@ -5,4 +5,5 @@ def my_collect(original_array)
   i += 1 
   yield collected_array <<  ( original_array.split("").first )
   end
+  collected_array
 end 
